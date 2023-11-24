@@ -1,0 +1,270 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	/* src: url("//www.quartzclinique.com/wp-content/themes/woodmart/fonts/woodmart-font-1-400.woff2?v=7.3.1") format("woff2"); */
+	font-display:swap;
+}
+
+.wd-popup.wd-promo-popup{
+	background-color:#480030;
+	background-image: none;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+
+.header-banner{
+	background-color:#3b4e60;
+	background-image: none;
+}
+
+.page-title-default{
+	background-color:#43c4d5;
+	background-image: none;
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:#ffffff;
+	background-image: none;
+}
+
+:root{
+/* --wd-text-font:"Poppins", Arial, Helvetica, sans-serif; */
+--wd-text-font-weight:400;
+--wd-text-color:#303030;
+--wd-text-font-size:16px;
+}
+:root{
+/* --wd-title-font:"Poppins", Arial, Helvetica, sans-serif; */
+--wd-title-font-weight:600;
+--wd-title-color:#242424;
+}
+:root{
+/* --wd-entities-title-font:"Poppins", Arial, Helvetica, sans-serif; */
+--wd-entities-title-font-weight:500;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+/* --wd-alternative-font:"Poppins", Arial, Helvetica, sans-serif; */
+}
+:root{
+/* --wd-widget-title-font:"Poppins", Arial, Helvetica, sans-serif; */
+--wd-widget-title-font-weight:600;
+--wd-widget-title-transform:uppercase;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+/* --wd-header-el-font:"Poppins", Arial, Helvetica, sans-serif; */
+--wd-header-el-font-weight:400;
+--wd-header-el-transform:uppercase;
+--wd-header-el-font-size:16px;
+}
+:root{
+--wd-primary-color:#43c4d5;
+}
+:root{
+--wd-alternative-color:#c1a062;
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:#242424;
+}
+:root{
+--btn-default-bgcolor:#f7f7f7;
+}
+:root{
+--btn-default-bgcolor-hover:#efefef;
+}
+:root{
+--btn-accented-bgcolor:#83b735;
+}
+:root{
+--btn-accented-bgcolor-hover:#74a32f;
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:#E0B252;
+}
+:root{
+--notices-warning-color:#fff;
+}
+
+	:root{
+					
+			
+							--wd-form-brd-radius: 0px;
+					
+					--wd-form-brd-width: 2px;
+		
+					--btn-default-color: #333;
+		
+					--btn-default-color-hover: #333;
+		
+					--btn-accented-color: #fff;
+		
+					--btn-accented-color-hover: #fff;
+		
+									--btn-default-brd-radius: 0px;
+				--btn-default-box-shadow: none;
+				--btn-default-box-shadow-hover: none;
+				--btn-default-box-shadow-active: none;
+				--btn-default-bottom: 0px;
+			
+			
+			
+					
+					
+							--btn-accented-bottom-active: -1px;
+				--btn-accented-brd-radius: 0px;
+				--btn-accented-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+				--btn-accented-box-shadow-hover: inset 0 -2px 0 rgba(0, 0, 0, .15);
+			
+			
+					
+							
+					--wd-brd-radius: 0px;
+		
+			}
+
+	
+	
+			:root{
+			--wd-container-w: 1222px;
+		}
+	
+			@media (min-width: 1222px) {
+			[data-vc-full-width]:not([data-vc-stretch-content]),
+			:is(.vc_section, .vc_row).wd-section-stretch {
+				padding-left: calc((100vw - 1222px - var(--wd-sticky-nav-w) - var(--wd-scroll-w)) / 2);
+				padding-right: calc((100vw - 1222px - var(--wd-sticky-nav-w) - var(--wd-scroll-w)) / 2);
+			}
+		}
+	
+			div.wd-popup.popup-quick-view {
+			max-width: 920px;
+		}
+	
+	
+	
+	
+			.woodmart-woocommerce-layered-nav .wd-scroll-content {
+			max-height: 280px;
+		}
+	
+	
+.promo-banner .wrapper-content-banner {
+    padding: 5px;
+}
+style attribute {
+    --wd-max-width: 96%;
+}@media (max-width: 576px) {
+	#footer {
+    position: fixed;
+    border-top: solid 2px #294d56;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    z-index: 999999999;
+    height: 50px;
+background: #f44336;
+}
+
+#footer .left {
+    float: left;
+    color: #fff;
+    Font-weight: bold;
+    background: #4dec68;
+    width: 50%;
+    height: inherit;
+}
+
+#footer .left i {
+    position: absolute;
+    z-index: 2;
+    left: 1px;
+    top: 0;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    background-color: #4dec68;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -15px;
+    line-height: 34px;
+}
+
+#footer .left a {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    float: left;
+}
+
+#footer .left span {
+    margin-top: 12px;
+    float: left;
+    font-weight: 700;
+    margin-left: 36px;
+    font-size: 19px;
+}
+
+#footer .right {
+    float: right;
+    color: #fff;
+    Font-weight: bold;
+}
+
+#footer .right i {
+position: absolute;
+    z-index: 2;
+    right: -0px;
+    top: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #F44336;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -15px;
+    line-height: 33px;
+}
+
+#footer .right a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#footer .right span {
+    margin-top: 10px;
+    margin-right: 40px;
+    float: right;
+    font-weight: 700;
+    font-size: 19px;
+}
+.dotpositionright {
+    margin-right: 28px;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+}
+.dotposition {
+    margin-left: 0;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+}}
+}
+
